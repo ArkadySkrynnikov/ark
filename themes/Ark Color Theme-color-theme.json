@@ -26,6 +26,7 @@
 			"foreground": "#268bd2"
 		},
 
+
 		"class": {
 			"foreground": "#78a0ac"
 		},
@@ -44,11 +45,19 @@
 		"variable":{
 			"foreground": "#00026f"
 		},
+		"variable.local":{
+			"foreground": "#00026f"
+		},
 		"variable.readonly":{
 			"foreground": "#00026f"
 		},
 		"variable.readonly.defaultLibrary":{
 			"foreground": "#00026f"
+		},
+
+
+		"parameter":{
+			"foreground": "#268bd2"
 		},
 
 
@@ -64,9 +73,6 @@
 			"foreground": "#FF0000"
 		},
 		"macro":{
-			"foreground": "#FF0000"
-		},
-		"parameter":{
 			"foreground": "#FF0000"
 		},
 		"enumMember":{
@@ -112,7 +118,15 @@
 			"settings": {
 				"foreground": "#587EA8"
 			}
-		}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#268bd2"
+			}
+		},
+
 	],
 	"colors": {
 	  "foreground": "#305074",
