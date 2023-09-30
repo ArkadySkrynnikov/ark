@@ -36,23 +36,23 @@
 
 
 		"property":{
-			"foreground": "#00026f"
+			"foreground": "#2aa198"
 		},
 		"property.readonly":{
-			"foreground": "#00026f"
+			"foreground": "#2aa198"
 		},
 
 		"variable":{
-			"foreground": "#00026f"
+			"foreground": "#2aa198"
 		},
 		"variable.local":{
-			"foreground": "#00026f"
+			"foreground": "#2aa198"
 		},
 		"variable.readonly":{
-			"foreground": "#00026f"
+			"foreground": "#2aa198"
 		},
 		"variable.readonly.defaultLibrary":{
-			"foreground": "#00026f"
+			"foreground": "#2aa198"
 		},
 
 
@@ -126,7 +126,40 @@
 				"foreground": "#268bd2"
 			}
 		},
-
+		{
+			"name": "Library function",
+			"scope": "support.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#587EA8"
+			}
+		},
+		{
+			"name": "Library constant",
+			"scope": "support.constant",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#587EA8"
+			}
+		},
+		{
+			"name": "Library class/type",
+			"scope": [
+				"support.type",
+				"support.class"
+			],
+			"settings": {
+				"foreground": "#587EA8"
+			}
+		},
+		{
+			"name": "Library variable",
+			"scope": "support.other.variable",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000000"
+			}
+		}
 	],
 	"colors": {
 	  "foreground": "#305074",
