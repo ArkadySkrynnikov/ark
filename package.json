@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/ArkadySkrynnikov/ark"
   },
-  "version": "0.1.8",
+  "version": "0.1.9",
   "engines": {
     "vscode": "^1.82.0"
   },
