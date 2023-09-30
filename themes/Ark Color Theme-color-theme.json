@@ -2,14 +2,12 @@
 	"name": "Ark Theme",
 	"type": "light",
 	"semanticHighlighting": true,
-	"semanticTokenColors": {		
+	"semanticTokenColors": {
+				
 		"type":{
 			"foreground": "#268bd2"
 		},
 		"type.defaultLibrary":{
-			"foreground": "#268bd2"
-		},
-		"class": {
 			"foreground": "#268bd2"
 		},
 		"interface":{
@@ -21,6 +19,20 @@
 		"function.defaultLibrary":{
 			"foreground": "#268bd2"
 		},
+		"method":{
+			"foreground": "#268bd2"
+		},
+		"method.defaultLibrary":{
+			"foreground": "#268bd2"
+		},
+
+		"class": {
+			"foreground": "#78a0ac"
+		},
+		"class.defaultLibrary":{
+			"foreground": "#78a0ac"
+		},
+
 
 		"property":{
 			"foreground": "#00026f"
@@ -29,6 +41,18 @@
 			"foreground": "#00026f"
 		},
 
+		"variable":{
+			"foreground": "#00026f"
+		},
+		"variable.readonly":{
+			"foreground": "#00026f"
+		},
+		"variable.readonly.defaultLibrary":{
+			"foreground": "#00026f"
+		},
+
+
+
 
 		"namespace": {
 			"foreground": "#ff0095"
@@ -36,25 +60,10 @@
 		"struct":{
 			"foreground": "#FF0000"
 		},
-		"class.defaultLibrary":{
-			"foreground": "#ff0000"
-		},
 		"enum":{
 			"foreground": "#FF0000"
 		},
-		"method":{
-			"foreground": "#FF0000"
-		},
 		"macro":{
-			"foreground": "#FF0000"
-		},
-		"variable":{
-			"foreground": "#FF0000"
-		},
-		"variable.readonly":{
-			"foreground": "#FF0000"
-		},
-		"variable.readonly.defaultLibrary":{
 			"foreground": "#FF0000"
 		},
 		"parameter":{
@@ -89,6 +98,21 @@
 				"foreground": "#d33682"
 			}
 		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#587EA8"
+			}
+		},
+		{
+			"name": "Storage type",
+			"scope": "storage.type",
+			"settings": {
+				"foreground": "#587EA8"
+			}
+		}
 	],
 	"colors": {
 	  "foreground": "#305074",
