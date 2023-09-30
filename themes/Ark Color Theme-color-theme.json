@@ -6,6 +6,9 @@
 		"type":{
 			"foreground": "#268bd2"
 		},
+		"type.defaultLibrary":{
+			"foreground": "#268bd2"
+		},
 		"class": {
 			"foreground": "#268bd2"
 		},
@@ -16,13 +19,16 @@
 			"foreground": "#268bd2"
 		},
 
-
-		"namespace": {
-			"foreground": "#2bff00"
+		"property":{
+			"foreground": "#00026f"
+		},
+		"property.readonly":{
+			"foreground": "#00026f"
 		},
 
-		"type.defaultLibrary":{
-			"foreground": "#FF0000"
+
+		"namespace": {
+			"foreground": "#ff0095"
 		},
 		"struct":{
 			"foreground": "#FF0000"
@@ -52,12 +58,6 @@
 			"foreground": "#FF0000"
 		},
 		"parameter":{
-			"foreground": "#FF0000"
-		},
-		"property":{
-			"foreground": "#FF0000"
-		},
-		"property.readonly":{
 			"foreground": "#FF0000"
 		},
 		"enumMember":{
