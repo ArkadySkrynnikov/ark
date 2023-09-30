@@ -105,6 +105,13 @@
 			}
 		},
 		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#185568"
+			}
+		},
+		{
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
