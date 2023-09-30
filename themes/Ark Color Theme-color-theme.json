@@ -1789,7 +1789,7 @@
 		"name": "Comments",
 		"scope": "comment, punctuation.definition.comment",
 		"settings": {
-		  "fontStyle": "italic",
+		  "fontStyle": "bold",
 		  "foreground": "#93a1a1"
 		}
 	  },
@@ -1819,28 +1819,28 @@
 		"name": "js/ts italic",
 		"scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
 		"settings": {
-		  "fontStyle": "italic"
+		  "fontStyle": "bold"
 		}
 	  },
 	  {
 		"name": "comment",
 		"scope": "comment.line.double-slash,comment.block.documentation",
 		"settings": {
-		  "fontStyle": "italic"
+		  "fontStyle": "bold"
 		}
 	  },
 	  {
 		"name": "Python Keyword Control",
 		"scope": "keyword.control.import.python,keyword.control.flow.python",
 		"settings": {
-		  "fontStyle": "italic"
+		  "fontStyle": "bold"
 		}
 	  },
 	  {
 		"name": "markup.italic.markdown",
 		"scope": "markup.italic.markdown",
 		"settings": {
-		  "fontStyle": "italic"
+		  "fontStyle": "bold"
 		}
 	  }
 	],
@@ -1863,11 +1863,11 @@
 	  "sideBarSectionHeader.border": "#fefdf8",
 	  "sideBarTitle.foreground": "#305074",
 	  "sideBar.border": "#ececec",
-	  "list.inactiveSelectionBackground": "#fefdf8",
+	  "list.inactiveSelectionBackground": "#fdd679",
 	  "list.inactiveSelectionForeground": "#305074",
 	  "list.hoverBackground": "#fefdf8",
 	  "list.hoverForeground": "#305074",
-	  "list.activeSelectionBackground": "#fefdf8",
+	  "list.activeSelectionBackground": "#fdd679",
 	  "list.activeSelectionForeground": "#305074",
 	  "tree.indentGuidesStroke": "#fdd679",
 	  "list.dropBackground": "#fdd679",
@@ -1895,12 +1895,12 @@
 	  "titleBar.inactiveForeground": "#305074",
 	  "titleBar.border": "#ececec",
 	  "menubar.selectionForeground": "#f7bf52",
-	  "menubar.selectionBackground": "#fefdf8",
+	  "menubar.selectionBackground": "#fdd679",
 	  "menubar.selectionBorder": "#fefdf8",
 	  "menu.foreground": "#305074",
 	  "menu.background": "#ececec",
 	  "menu.selectionForeground": "#305074",
-	  "menu.selectionBackground": "#fefdf8",
+	  "menu.selectionBackground": "#fdd679",
 	  "menu.selectionBorder": "#fefdf8",
 	  "menu.separatorBackground": "#f7bf52",
 	  "menu.border": "#f7bf52",
@@ -1923,8 +1923,8 @@
 	  "editorLineNumber.foreground": "#ececec",
 	  "editorCursor.foreground": "#71afcd",
 	  "editorCursor.background": "#fdf6e3",
-	  "editor.selectionBackground": "#fefdf8",
-	  "editor.inactiveSelectionBackground": "#fefdf8",
+	  "editor.selectionBackground": "#fdd679",
+	  "editor.inactiveSelectionBackground": "#fdd679",
 	  "editorWhitespace.foreground": "#fefdf8",
 	  "editor.selectionHighlightBackground": "#fefdf8",
 	  "editor.selectionHighlightBorder": "#f7bf52",
