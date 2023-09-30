@@ -26,6 +26,13 @@
 			"foreground": "#268bd2"
 		},
 
+		"enum":{
+			"foreground": "#268bd2"
+		},
+		"enumMember":{
+			"foreground": "#268bd2"
+		},
+
 
 		"class": {
 			"foreground": "#78a0ac"
@@ -36,10 +43,10 @@
 
 
 		"property":{
-			"foreground": "#2aa198"
+			"foreground": "#00026f"
 		},
 		"property.readonly":{
-			"foreground": "#2aa198"
+			"foreground": "#00026f"
 		},
 
 		"variable":{
@@ -69,13 +76,7 @@
 		"struct":{
 			"foreground": "#FF0000"
 		},
-		"enum":{
-			"foreground": "#FF0000"
-		},
 		"macro":{
-			"foreground": "#FF0000"
-		},
-		"enumMember":{
 			"foreground": "#FF0000"
 		},
 		"event":{
@@ -116,14 +117,14 @@
 			"scope": "storage",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#587EA8"
+				"foreground": "#185568"
 			}
 		},
 		{
 			"name": "Storage type",
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#587EA8"
+				"foreground": "#185568"
 			}
 		},
 		{
@@ -138,7 +139,7 @@
 			"scope": "support.function",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#587EA8"
+				"foreground": "#699dc2"
 			}
 		},
 		{
@@ -146,7 +147,7 @@
 			"scope": "support.constant",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#587EA8"
+				"foreground": "#699dc2"
 			}
 		},
 		{
@@ -156,7 +157,7 @@
 				"support.class"
 			],
 			"settings": {
-				"foreground": "#587EA8"
+				"foreground": "#699dc2"
 			}
 		},
 		{
