@@ -18,6 +18,9 @@
 		"function":{
 			"foreground": "#268bd2"
 		},
+		"function.defaultLibrary":{
+			"foreground": "#268bd2"
+		},
 
 		"property":{
 			"foreground": "#00026f"
@@ -37,9 +40,6 @@
 			"foreground": "#ff0000"
 		},
 		"enum":{
-			"foreground": "#FF0000"
-		},
-		"function.defaultLibrary":{
 			"foreground": "#FF0000"
 		},
 		"method":{
@@ -68,6 +68,27 @@
 		}
 	},
 	"tokenColors": [
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#93a1a1"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#859900"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#d33682"
+			}
+		},
 	],
 	"colors": {
 	  "foreground": "#305074",
